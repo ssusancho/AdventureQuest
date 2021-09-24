@@ -30,9 +30,9 @@ export class Config {
     public getAdventure(): ITextAdventure {
         //TODO: 
         // Comment the line below then...
-        return new DragonsLairAdventure();
+        // return new DragonsLairAdventure();
         // Uncomment the line beneath this to run the FlamingGoatAdventure
-        //return new FlamingGoatAdventure();
+        return new FlamingGoatAdventure();
     }
 
 }
